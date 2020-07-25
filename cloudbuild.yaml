@@ -15,7 +15,7 @@ steps:
   - set
   - image
   - deployment
-  - balu-kubernetes-test
+  - virtualan-mock
   - web=gcr.io/$PROJECT_ID/virtualan-mock:1.0.$BUILD_ID
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=us-central1-c'
